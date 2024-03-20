@@ -127,7 +127,7 @@ namespace pr3 {
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(191, 61);
 			this->button2->TabIndex = 4;
-			this->button2->Text = L"Обчислити";
+			this->button2->Text = L"Очистити";
 			this->button2->UseVisualStyleBackColor = false;
 			this->button2->Click += gcnew System::EventHandler(this, &MyForm::button2_Click);
 			// 
@@ -144,7 +144,7 @@ namespace pr3 {
 			this->Controls->Add(this->label1);
 			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
 			this->Name = L"MyForm";
-			this->Text = L"Практична робота №3";
+			this->Text = L"0";
 			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
 			this->ResumeLayout(false);
 			this->PerformLayout();
